@@ -1,1 +1,0 @@
-/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/unitree_hg/ament_cmake_python/unitree_hg/unitree_hg.egg-info/dependency_links.txt

@@ -1,9 +1,0 @@
-source;share/g1_arm_joint_control/hook/pythonpath.ps1
-source;share/g1_arm_joint_control/hook/pythonpath.dsv
-source;share/g1_arm_joint_control/hook/pythonpath.sh
-source;share/g1_arm_joint_control/hook/ament_prefix_path.ps1
-source;share/g1_arm_joint_control/hook/ament_prefix_path.dsv
-source;share/g1_arm_joint_control/hook/ament_prefix_path.sh
-source;../../build/g1_arm_joint_control/share/g1_arm_joint_control/hook/pythonpath_develop.ps1
-source;../../build/g1_arm_joint_control/share/g1_arm_joint_control/hook/pythonpath_develop.dsv
-source;../../build/g1_arm_joint_control/share/g1_arm_joint_control/hook/pythonpath_develop.sh

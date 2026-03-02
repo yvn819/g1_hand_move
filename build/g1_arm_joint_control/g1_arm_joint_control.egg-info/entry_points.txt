@@ -1,5 +1,0 @@
-[console_scripts]
-arm_joint_controller = g1_arm_joint_control.arm_joint_controller_node:main
-arm_pose_sender = g1_arm_joint_control.arm_pose_sender_node:main
-arm_sim_node = g1_arm_joint_control.arm_sim_node:main
-hand_target_ik = g1_arm_joint_control.hand_target_ik_node:main

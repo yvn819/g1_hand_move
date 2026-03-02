@@ -1,1 +1,0 @@
-/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/unitree_hg/rosidl_typesupport_introspection_c/unitree_hg/msg/rosidl_typesupport_introspection_c__visibility_control.h

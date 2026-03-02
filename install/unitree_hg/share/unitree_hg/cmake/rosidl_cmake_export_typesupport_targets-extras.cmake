@@ -1,1 +1,0 @@
-/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/unitree_hg/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
