@@ -17,6 +17,11 @@ def generate_launch_description():
         'config',
         'arm_sim.yaml',
     )
+    default_ik_params = os.path.join(
+        get_package_share_directory('g1_arm_joint_control'),
+        'config',
+        'hand_target_ik.yaml',
+    )
 
     params_arg = DeclareLaunchArgument(
         'controller_params_file',
@@ -27,6 +32,11 @@ def generate_launch_description():
         'sim_params_file',
         default_value=default_sim_params,
         description='Path to parameter file for MuJoCo arm simulator',
+    )
+    ik_params_arg = DeclareLaunchArgument(
+        'ik_params_file',
+        default_value=default_ik_params,
+        description='Path to parameter file for hand target IK node',
     )
 
     python_env = DeclareLaunchArgument(
@@ -52,4 +62,15 @@ def generate_launch_description():
         parameters=[LaunchConfiguration('controller_params_file')],
     )
 
-    return LaunchDescription([params_arg, sim_params_arg, python_env, sim_node, controller])
+    hand_target_ik = Node(
+        package='g1_arm_joint_control',
+        executable='hand_target_ik',
+        name='hand_target_ik',
+        output='screen',
+        prefix=[LaunchConfiguration('conda_python')],
+        parameters=[LaunchConfiguration('ik_params_file')],
+    )
+
+    return LaunchDescription(
+        [params_arg, sim_params_arg, ik_params_arg, python_env, sim_node, controller, hand_target_ik]
+    )

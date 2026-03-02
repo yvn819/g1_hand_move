@@ -1,0 +1,22 @@
+hand_target_ik:
+  ros__parameters:
+    target_topic: /g1/hand_target_point
+    cmd_topic: /g1/arm_joint_position_cmd
+    lowstate_topic: /lowstate
+    publish_rate_hz: 40.0
+
+    scene_path: /home/yutong/scaledrive.ai/fincantieri/g1_control/g1_control_ws/src/g1_mujoco_nav/assets/unitree_robots/g1/scene_29dof.xml
+    controlled_motor_count: 29
+
+    arm_side: left
+    end_effector_body: left_wrist_yaw_link
+    ee_local_offset: [0.0, 0.0, 0.0]
+
+    ik_iterations: 20
+    ik_step_size: 0.35
+    ik_damping: 0.15
+    ik_tolerance: 0.015
+    ik_max_step_per_iter: 0.06
+    max_delta_per_cycle: 0.01
+    cartesian_speed_mps: 0.2
+    goal_reach_tolerance_m: 0.01
