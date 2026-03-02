@@ -1,0 +1,48 @@
+[0.434s] Invoking command in '/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/src/g1_arm_joint_control': PYTHONPATH=/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/g1_arm_joint_control build --build-base /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/build install --record /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/install.log --single-version-externally-managed install_data
+[0.605s] running egg_info
+[0.605s] creating ../../build/g1_arm_joint_control/g1_arm_joint_control.egg-info
+[0.605s] writing ../../build/g1_arm_joint_control/g1_arm_joint_control.egg-info/PKG-INFO
+[0.605s] writing dependency_links to ../../build/g1_arm_joint_control/g1_arm_joint_control.egg-info/dependency_links.txt
+[0.605s] writing entry points to ../../build/g1_arm_joint_control/g1_arm_joint_control.egg-info/entry_points.txt
+[0.605s] writing requirements to ../../build/g1_arm_joint_control/g1_arm_joint_control.egg-info/requires.txt
+[0.605s] writing top-level names to ../../build/g1_arm_joint_control/g1_arm_joint_control.egg-info/top_level.txt
+[0.605s] writing manifest file '../../build/g1_arm_joint_control/g1_arm_joint_control.egg-info/SOURCES.txt'
+[0.606s] reading manifest file '../../build/g1_arm_joint_control/g1_arm_joint_control.egg-info/SOURCES.txt'
+[0.607s] writing manifest file '../../build/g1_arm_joint_control/g1_arm_joint_control.egg-info/SOURCES.txt'
+[0.607s] running build
+[0.607s] running build_py
+[0.607s] creating /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/build
+[0.607s] creating /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/build/lib
+[0.607s] creating /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/build/lib/g1_arm_joint_control
+[0.607s] copying g1_arm_joint_control/joint_map.py -> /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/build/lib/g1_arm_joint_control
+[0.607s] copying g1_arm_joint_control/__init__.py -> /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/build/lib/g1_arm_joint_control
+[0.607s] copying g1_arm_joint_control/arm_joint_controller_node.py -> /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/build/lib/g1_arm_joint_control
+[0.607s] copying g1_arm_joint_control/arm_pose_sender_node.py -> /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/build/lib/g1_arm_joint_control
+[0.607s] running install
+[0.607s] running install_lib
+[0.608s] creating /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/python3.10/site-packages/g1_arm_joint_control
+[0.608s] copying /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/build/lib/g1_arm_joint_control/joint_map.py -> /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/python3.10/site-packages/g1_arm_joint_control
+[0.608s] copying /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/build/lib/g1_arm_joint_control/__init__.py -> /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/python3.10/site-packages/g1_arm_joint_control
+[0.608s] copying /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/build/lib/g1_arm_joint_control/arm_joint_controller_node.py -> /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/python3.10/site-packages/g1_arm_joint_control
+[0.608s] copying /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/build/lib/g1_arm_joint_control/arm_pose_sender_node.py -> /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/python3.10/site-packages/g1_arm_joint_control
+[0.608s] byte-compiling /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/python3.10/site-packages/g1_arm_joint_control/joint_map.py to joint_map.cpython-310.pyc
+[0.609s] byte-compiling /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/python3.10/site-packages/g1_arm_joint_control/__init__.py to __init__.cpython-310.pyc
+[0.609s] byte-compiling /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/python3.10/site-packages/g1_arm_joint_control/arm_joint_controller_node.py to arm_joint_controller_node.cpython-310.pyc
+[0.610s] byte-compiling /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/python3.10/site-packages/g1_arm_joint_control/arm_pose_sender_node.py to arm_pose_sender_node.cpython-310.pyc
+[0.610s] running install_data
+[0.610s] creating /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/share/ament_index
+[0.610s] creating /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/share/ament_index/resource_index
+[0.610s] creating /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/share/ament_index/resource_index/packages
+[0.610s] copying resource/g1_arm_joint_control -> /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/share/ament_index/resource_index/packages
+[0.610s] copying package.xml -> /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/share/g1_arm_joint_control
+[0.610s] creating /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/share/g1_arm_joint_control/launch
+[0.610s] copying launch/arm_control.launch.py -> /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/share/g1_arm_joint_control/launch
+[0.610s] creating /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/share/g1_arm_joint_control/config
+[0.610s] copying config/arm_control.yaml -> /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/share/g1_arm_joint_control/config
+[0.610s] running install_egg_info
+[0.611s] Copying ../../build/g1_arm_joint_control/g1_arm_joint_control.egg-info to /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/python3.10/site-packages/g1_arm_joint_control-0.1.0-py3.10.egg-info
+[0.612s] running install_scripts
+[0.625s] Installing arm_joint_controller script to /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/g1_arm_joint_control
+[0.625s] Installing arm_pose_sender script to /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/g1_arm_joint_control
+[0.625s] writing list of installed files to '/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/install.log'
+[0.640s] Invoked command in '/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/src/g1_arm_joint_control' returned '0': PYTHONPATH=/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/g1_arm_joint_control build --build-base /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/build install --record /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/install.log --single-version-externally-managed install_data

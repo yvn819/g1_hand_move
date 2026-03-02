@@ -1,0 +1,1 @@
+/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/unitree_hg/ament_cmake_environment_hooks/local_setup.sh

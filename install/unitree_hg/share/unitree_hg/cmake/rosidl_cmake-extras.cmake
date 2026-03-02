@@ -1,0 +1,1 @@
+/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/unitree_hg/rosidl_cmake/rosidl_cmake-extras.cmake

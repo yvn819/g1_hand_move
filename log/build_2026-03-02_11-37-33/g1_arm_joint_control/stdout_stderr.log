@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing g1_arm_joint_control.egg-info/PKG-INFO
+writing dependency_links to g1_arm_joint_control.egg-info/dependency_links.txt
+writing entry points to g1_arm_joint_control.egg-info/entry_points.txt
+writing requirements to g1_arm_joint_control.egg-info/requires.txt
+writing top-level names to g1_arm_joint_control.egg-info/top_level.txt
+reading manifest file 'g1_arm_joint_control.egg-info/SOURCES.txt'
+writing manifest file 'g1_arm_joint_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/python3.10/site-packages/g1-arm-joint-control.egg-link (link to .)
+Installing arm_joint_controller script to /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/g1_arm_joint_control
+Installing arm_pose_sender script to /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/g1_arm_joint_control
+Installing arm_sim_node script to /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/lib/g1_arm_joint_control
+
+Installed /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control
+running symlink_data
+symbolically linking /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/g1_arm_joint_control/config/arm_sim.yaml -> /home/yutong/scaledrive.ai/fincantieri/g1_hand_move/install/g1_arm_joint_control/share/g1_arm_joint_control/config

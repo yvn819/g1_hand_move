@@ -1,0 +1,30 @@
+arm_joint_controller:
+  ros__parameters:
+    cmd_topic: /g1/arm_joint_position_cmd
+    lowcmd_topic: /lowcmd
+    lowstate_topic: /lowstate
+    publish_rate_hz: 200.0
+    mode_pr: 0
+    mode_machine: 0
+    control_mode: 1
+    controlled_motor_count: 29
+
+    # G1 arm indices in LowCmd (29-DOF map).
+    arm_joint_indices: [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+
+    # Per-joint position gains (left arm then right arm).
+    kp: [80.0, 70.0, 60.0, 50.0, 20.0, 20.0, 20.0, 80.0, 70.0, 60.0, 50.0, 20.0, 20.0, 20.0]
+    kd: [2.0, 2.0, 2.0, 2.0, 1.0, 1.0, 1.0, 2.0, 2.0, 2.0, 2.0, 1.0, 1.0, 1.0]
+
+    # Keep non-arm joints at a fixed standing pose with PD while only arm moves.
+    hold_non_arm_joints: true
+    capture_standing_pose_from_lowstate: true
+    non_arm_kp: 120.0
+    non_arm_kd: 3.0
+    non_arm_default_q:
+      [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+       0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
+    default_angles: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    hold_last_command: true
+    command_timeout_sec: 0.5

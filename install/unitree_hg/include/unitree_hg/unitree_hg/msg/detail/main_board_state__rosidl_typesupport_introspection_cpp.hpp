@@ -1,0 +1,1 @@
+/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/unitree_hg/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_introspection_cpp.hpp

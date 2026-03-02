@@ -1,0 +1,1 @@
+/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/build/unitree_hg/rosidl_generator_cpp/unitree_hg/msg/detail/motor_state__type_support.hpp

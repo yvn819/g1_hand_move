@@ -1,0 +1,1 @@
+/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/src/unitree_hg/msg/PressSensorState.msg

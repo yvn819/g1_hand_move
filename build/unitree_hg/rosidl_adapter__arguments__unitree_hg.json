@@ -1,0 +1,16 @@
+{
+  "package_name": "unitree_hg",
+  "non_idl_tuples": [
+    "/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/src/unitree_hg:msg/BmsCmd.msg",
+    "/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/src/unitree_hg:msg/BmsState.msg",
+    "/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/src/unitree_hg:msg/HandCmd.msg",
+    "/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/src/unitree_hg:msg/HandState.msg",
+    "/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/src/unitree_hg:msg/IMUState.msg",
+    "/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/src/unitree_hg:msg/LowCmd.msg",
+    "/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/src/unitree_hg:msg/LowState.msg",
+    "/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/src/unitree_hg:msg/MainBoardState.msg",
+    "/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/src/unitree_hg:msg/MotorCmd.msg",
+    "/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/src/unitree_hg:msg/MotorState.msg",
+    "/home/yutong/scaledrive.ai/fincantieri/g1_hand_move/src/unitree_hg:msg/PressSensorState.msg"
+  ]
+}

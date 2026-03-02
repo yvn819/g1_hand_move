@@ -1,0 +1,16 @@
+arm_sim_node:
+  ros__parameters:
+    scene_path: /home/yutong/scaledrive.ai/fincantieri/g1_control/g1_control_ws/src/g1_mujoco_nav/assets/unitree_robots/g1/scene_29dof.xml
+
+    simulate_dt: 0.005
+    viewer_dt: 0.02
+    print_scene_information: true
+    lock_base: true
+
+    lowcmd_topic: /lowcmd
+    lowstate_topic: /lowstate
+
+    camera_lookat: [0.0, 0.0, 0.8]
+    camera_distance: 4.0
+    camera_elevation: -15.0
+    camera_azimuth: 90.0
